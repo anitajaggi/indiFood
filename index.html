@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndiFood</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <main>
+        <!-- header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-main d-flex justify-content-between p-2">
+                            <div class="logo">
+                                <h2>IndiFood</h2>
+                            </div>
+                            <nav>
+                                <ul class="d-flex align-items-center gap-4">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="menu.html">Menu</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li class="cart-icon">
+                                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hero-content">
+                            <h1>Where Taste Meets Art!</h1>
+                            <p>From sizzling delights to sweet indulgences, your favorite dishes are just a tap away.
+                                Delicious Food, amazing taste, every time.</p>
+                            <div class="btns">
+                                <button class="btn btn-primary"><span>Order Now</span> <i
+                                        class="fa fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- menu section -->
+        <section class="menu-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading d-flex align-items-center justify-content-center gap-3">
+                            <h2>Explore Our Menu</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <span class="dish-tag">VegFood</span>
+                            <div class="dish-img mb-2">
+                                <img src="assets/images/img1.webp" alt="">
+                            </div>
+                            <div class="dish-details">
+                                <h5 class="dish-name">Paneer Roti</h5>
+                                <p class="dish-desc">Soft and fresh whole wheat roti stuffed with spiced, marinated
+                                    paneer.
+                                </p>
+                                <div class="dish-p-mrp d-flex gap-3">
+                                    <h6 class="dish-price">₹<span>499</span></h6>
+                                    <h6 class="dish-mrp text-decoration-line-through">₹<span>599</span></h6>
+                                </div>
+                                <p class="dish-rating"><span>★★★★★</span> (4.7/5 based on 320 reviews)</p>
+                                <div class="quantity-box">
+                                    <div class="btn decrement-btn" id="decrement">-</div>
+                                    <div class="quantity" id="quantity">1</div>
+                                    <div class="btn increment-btn" id="increment">+</div>
+                                </div>
+                                <div class="card-btn">
+                                    <button class="btn add-to-cart">Add to Cart <i class="fa fa-utensils"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <span class="dish-tag">VegFood</span>
+                            <div class="dish-img mb-2">
+                                <img src="assets/images/img2.webp" alt="">
+                            </div>
+                            <div class="dish-details">
+                                <h5 class="dish-name">Paneer Roti</h5>
+                                <p class="dish-desc">Soft and fresh whole wheat roti stuffed with spiced, marinated
+                                    paneer.
+                                </p>
+                                <div class="dish-p-mrp d-flex gap-3">
+                                    <h6 class="dish-price">₹<span>499</span></h6>
+                                    <h6 class="dish-mrp text-decoration-line-through">₹<span>599</span></h6>
+                                </div>
+                                <p class="dish-rating"><span>★★★★★</span> (4.7/5 based on 320 reviews)</p>
+                                <div class="quantity-box">
+                                    <div class="btn decrement-btn" id="decrement">-</div>
+                                    <div class="quantity" id="quantity">1</div>
+                                    <div class="btn increment-btn" id="increment">+</div>
+                                </div>
+                                <div class="card-btn">
+                                    <button class="btn add-to-cart">Add to Cart <i class="fa fa-utensils"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <span class="dish-tag non-veg-tag">Non-VegFood</span>
+                            <div class="dish-img mb-2">
+                                <img src="assets/images/img8.webp" alt="">
+                            </div>
+                            <div class="dish-details">
+                                <h5 class="dish-name">Paneer Roti</h5>
+                                <p class="dish-desc">Soft and fresh whole wheat roti stuffed with spiced, marinated
+                                    paneer.
+                                </p>
+                                <div class="dish-p-mrp d-flex gap-3">
+                                    <h6 class="dish-price">₹<span>499</span></h6>
+                                    <h6 class="dish-mrp text-decoration-line-through">₹<span>599</span></h6>
+                                </div>
+                                <p class="dish-rating"><span>★★★★★</span> (4.7/5 based on 320 reviews)</p>
+                                <div class="quantity-box">
+                                    <div class="btn decrement-btn" id="decrement">-</div>
+                                    <div class="quantity" id="quantity">1</div>
+                                    <div class="btn increment-btn" id="increment">+</div>
+                                </div>
+                                <div class="card-btn">
+                                    <button class="btn add-to-cart">Add to Cart <i class="fa fa-utensils"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <span class="dish-tag">VegFood</span>
+                            <div class="dish-img mb-2">
+                                <img src="assets/images/img3.webp" alt="">
+                            </div>
+                            <div class="dish-details">
+                                <h5 class="dish-name">Paneer Roti</h5>
+                                <p class="dish-desc">Soft and fresh whole wheat roti stuffed with spiced, marinated
+                                    paneer.
+                                </p>
+                                <div class="dish-p-mrp d-flex gap-3">
+                                    <h6 class="dish-price">₹<span>499</span></h6>
+                                    <h6 class="dish-mrp text-decoration-line-through">₹<span>599</span></h6>
+                                </div>
+                                <p class="dish-rating"><span>★★★★★</span> (4.7/5 based on 320 reviews)</p>
+                                <div class="quantity-box">
+                                    <div class="btn decrement-btn" id="decrement">-</div>
+                                    <div class="quantity" id="quantity">1</div>
+                                    <div class="btn increment-btn" id="increment">+</div>
+                                </div>
+                                <div class="card-btn">
+                                    <button class="btn add-to-cart">Add to Cart <i class="fa fa-utensils"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <span class="dish-tag">VegFood</span>
+                            <div class="dish-img mb-2">
+                                <img src="assets/images/img4.webp" alt="">
+                            </div>
+                            <div class="dish-details">
+                                <h5 class="dish-name">Paneer Roti</h5>
+                                <p class="dish-desc">Soft and fresh whole wheat roti stuffed with spiced, marinated
+                                    paneer.
+                                </p>
+                                <div class="dish-p-mrp d-flex gap-3">
+                                    <h6 class="dish-price">₹<span>499</span></h6>
+                                    <h6 class="dish-mrp text-decoration-line-through">₹<span>599</span></h6>
+                                </div>
+                                <p class="dish-rating"><span>★★★★★</span> (4.7/5 based on 320 reviews)</p>
+                                <div class="quantity-box">
+                                    <div class="btn decrement-btn" id="decrement">-</div>
+                                    <div class="quantity" id="quantity">1</div>
+                                    <div class="btn increment-btn" id="increment">+</div>
+                                </div>
+                                <div class="card-btn">
+                                    <button class="btn add-to-cart">Add to Cart <i class="fa fa-utensils"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <span class="dish-tag non-veg-tag">Non-VegFood</span>
+                            <div class="dish-img mb-2">
+                                <img src="assets/images/img12.webp" alt="">
+                            </div>
+                            <div class="dish-details">
+                                <h5 class="dish-name">Paneer Roti</h5>
+                                <p class="dish-desc">Soft and fresh whole wheat roti stuffed with spiced, marinated
+                                    paneer.
+                                </p>
+                                <div class="dish-p-mrp d-flex gap-3">
+                                    <h6 class="dish-price">₹<span>499</span></h6>
+                                    <h6 class="dish-mrp text-decoration-line-through">₹<span>599</span></h6>
+                                </div>
+                                <p class="dish-rating"><span>★★★★★</span> (4.7/5 based on 320 reviews)</p>
+                                <div class="quantity-box">
+                                    <div class="btn decrement-btn" id="decrement">-</div>
+                                    <div class="quantity" id="quantity">1</div>
+                                    <div class="btn increment-btn" id="increment">+</div>
+                                </div>
+                                <div class="card-btn">
+                                    <button class="btn add-to-cart">Add to Cart <i class="fa fa-utensils"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <span class="dish-tag">VegFood</span>
+                            <div class="dish-img mb-2">
+                                <img src="assets/images/img6.webp" alt="">
+                            </div>
+                            <div class="dish-details">
+                                <h5 class="dish-name">Paneer Roti</h5>
+                                <p class="dish-desc">Soft and fresh whole wheat roti stuffed with spiced, marinated
+                                    paneer.
+                                </p>
+                                <div class="dish-p-mrp d-flex gap-3">
+                                    <h6 class="dish-price">₹<span>499</span></h6>
+                                    <h6 class="dish-mrp text-decoration-line-through">₹<span>599</span></h6>
+                                </div>
+                                <p class="dish-rating"><span>★★★★★</span> (4.7/5 based on 320 reviews)</p>
+                                <div class="quantity-box">
+                                    <div class="btn decrement-btn" id="decrement">-</div>
+                                    <div class="quantity" id="quantity">1</div>
+                                    <div class="btn increment-btn" id="increment">+</div>
+                                </div>
+                                <div class="card-btn">
+                                    <button class="btn add-to-cart">Add to Cart <i class="fa fa-utensils"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <span class="dish-tag non-veg-tag">Non-VegFood</span>
+                            <div class="dish-img mb-2">
+                                <img src="assets/images/img11.webp" alt="">
+                            </div>
+                            <div class="dish-details">
+                                <h5 class="dish-name">Paneer Roti</h5>
+                                <p class="dish-desc">Soft and fresh whole wheat roti stuffed with spiced, marinated
+                                    paneer.
+                                </p>
+                                <div class="dish-p-mrp d-flex gap-3">
+                                    <h6 class="dish-price">₹<span>499</span></h6>
+                                    <h6 class="dish-mrp text-decoration-line-through">₹<span>599</span></h6>
+                                </div>
+                                <p class="dish-rating"><span>★★★★★</span> (4.7/5 based on 320 reviews)</p>
+                                <div class="quantity-box">
+                                    <div class="btn decrement-btn" id="decrement">-</div>
+                                    <div class="quantity" id="quantity">1</div>
+                                    <div class="btn increment-btn" id="increment">+</div>
+                                </div>
+                                <div class="card-btn">
+                                    <button class="btn add-to-cart">Add to Cart <i class="fa fa-utensils"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="btns text-center my-2 p-2" style="background-color: #47663B; border-radius: 50px;">
+                            <button class="btn btn-primary exp-btn"><span>Explore More</span> <i
+                                    class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="testimonial-section pb-4">
+            <div class="container">
+                <div class="section-heading text-light">
+                    <h2>Loved by Foodies Everywhere</h2>
+                    <p>Don’t just take our word for it—see what our happy customers have to say about their dining
+                        experience with us.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="testi-main-box">
+                            <div class="testibox">
+                                <h6>Priya M</h6>
+                                <p>I can’t get enough of their Paneer Butter Masala! The flavors are rich, authentic,
+                                    and
+                                    absolutely delicious. Their delivery is always on time, and the food arrives hot and
+                                    fresh
+                                    every time. Highly recommend it!</p>
+                            </div>
+                            <div class="testibox">
+                                <h6>Rajesh K</h6>
+                                <p>The variety on their menu is amazing! From traditional favorites to unique new
+                                    dishes,
+                                    everything I’ve tried has been fantastic. This is my go-to place for family dinners
+                                    and
+                                    celebrations.</p>
+                            </div>
+                            <div class="testibox">
+                                <h6>Anjali S</h6>
+                                <p>The quality of the food is unbeatable. Every bite is a testament to their commitment
+                                    to
+                                    freshness and taste. I ordered the Tandoori Roti and Dal Makhani, and it felt like a
+                                    warm hug on a plate!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="testi-form">
+                            <h5>Give Your Feedback!</h5>
+                            <input type="text" class="form-control" required placeholder="Name">
+                            <input type="email" class="form-control" required placeholder="Email">
+                            <input type="number" class="form-control" required placeholder="Contact Number">
+                            <textarea placeholder="Feedback..." required class="form-control"></textarea>
+                            <div class="btns">
+                                <button class="btn btn-primary"><span>Send Feedback</span> <i
+                                        class="fa fa-arrow-right"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery-info-section p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="assets/images/choice.png" style="width: 70px;" alt="select your dishes">
+                        <h4>Select dishes</h4>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="assets/images/booking.png" style="width: 70px;" alt="place order">
+                        <h4>Place your order.</h4>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="assets/images/meal.png" style="width: 70px;" alt="enjoy meal">
+                        <h4>Enjoy hot, fresh meals at home.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading text-light">
+                            <h2>The Heart Behind Every Dish!</h2>
+                            <p>Rooted in tradition and inspired by creativity, we strive to make every bite a reflection
+                                of
+                                our dedication to quality and care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-content">
+                            <p>
+                                At IndiFood, we believe that food is more than just sustenance—it’s an
+                                experience that brings people together, evokes emotions, and creates unforgettable
+                                moments.
+                                Our journey began in [Year] with a simple mission: to deliver delicious, high-quality
+                                meals
+                                that celebrate the rich diversity of flavors and cultures.
+                            </p>
+                            <p>
+                                Every dish on our menu is crafted with love, using the freshest ingredients, handpicked
+                                by
+                                our chefs, and prepared with precision and care. From the comforting warmth of
+                                traditional
+                                recipes to the excitement of innovative culinary creations, we strive to offer something
+                                for
+                                everyone.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-content-right">
+                            <h5>Our Philosoph</h5>
+                            <p>
+                                <b>Freshness Above All:</b> We source only the finest ingredients from trusted local
+                                farmers
+                                and
+                                suppliers to ensure every bite is packed with flavor and nutrients.
+                            </p>
+                            <p>
+                                <b>Sustainability:</b> Our commitment to the environment inspires us to adopt
+                                eco-friendly
+                                practices,
+                                from reducing waste to sustainable packaging.
+                            </p>
+                            <p>
+                                <b>Customer First:</b> Your satisfaction is our top priority. Whether you’re dining in,
+                                ordering
+                                online, or catering a special event, we aim to make every experience exceptional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-heading text-light">
+                            <h2>Fresh Updates, Delivered to Your Inbox!</h2>
+                            <p>Hungry for more? Join our mailing list for updates, recipes, and irresistible offers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 m-auto">
+                        <form>
+                            <div class="sub-box">
+                                <input type="email" class="sub-input" required placeholder="Enter Your Email">
+                                <div class="btns">
+                                    <button class="btn btn-subscribe"><span>Subscribe</span> <i
+                                            class="fa-solid fa-envelope"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-4 text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1>IndiFood</h1>
+                        <p>
+                            At IndiFood, we believe that food is more than just sustenance—it’s an experience that
+                            brings people together, evokes emotions, and creates unforgettable moments. Our journey
+                            began in [Year] with a simple mission: to deliver delicious, high-quality meals that
+                            celebrate the rich diversity of flavors and cultures.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="links">
+                            <ul class="footer-links">
+                                <li class="mb-3">
+                                    <h4>Quick Links</h4>
+                                </li>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="menu.html">Menu</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="privacy.html">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="terms.html">Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-info">
+                            <ul>
+                                <li class="mb-3">
+                                    <h4>Contact Informations</h4>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fa-solid fa-phone"></i> <span>+91 9999 999 999</span>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fa-solid fa-envelope"></i> <span>support@indifood.com</span>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fa-solid fa-location-dot"></i> <span>location example dksjfsj
+                                        sdjgfdjl</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copy-content text-center">
+                            <span>&copy; 2025 All Right Reserved || Designed By Anita Jaggi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- scripts -->
+    <script src="assets/jquery3.7.1.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
